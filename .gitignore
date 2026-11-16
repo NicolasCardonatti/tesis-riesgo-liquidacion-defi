@@ -1,0 +1,21 @@
+# Datos descargados (son públicos, pero pesan demasiado para GitHub)
+datos_aave/
+*.csv
+
+# Resultados que genera el script de gráficos
+salida/
+
+# Claves y configuración local: NUNCA se suben
+.env
+*.key
+api_key*.txt
+
+# Archivos de Python y de editores
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.spyproject/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
